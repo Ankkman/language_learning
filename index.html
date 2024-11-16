@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Language Learning</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Language Learning App</h1>
+  </header>
+  <main>
+    <!-- Login Section -->
+    <section id="login">
+      <h2>Login</h2>
+      <form id="login-form">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+        <br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        <br>
+        <button type="submit">Login</button>
+      </form>
+      <div id="login-message" style="color: red;"></div>
+    </section>
+
+    <!-- Lessons List -->
+    <section id="lessons" style="display: none;">
+      <h2>Lessons</h2>
+      <ul id="lessons-list"></ul>
+    </section>
+
+    <!-- Lesson Content View -->
+    <section id="lesson-view" style="display: none;">
+      <h2>Lesson Content</h2>
+      <button id="back-to-home-btn" onclick="goToHomePage()">Back to Lessons</button>
+      <div id="lesson-content"></div>
+      <button id="mark-complete-btn" onclick="markLessonComplete()" style="display:none;">Mark as Complete</button>
+      <button id="exercise-btn" onclick="fetchExercisesForCompletedLesson()" style="display:none;">Go to Exercises</button>
+    </section>
+
+    <!-- Exercises Section -->
+    <div id="exercises" style="display: none;">
+      <h2>Exercises</h2>
+      <ul id="exercises-list"></ul>
+      <button id="submit-exercises" style="display: none;"  onclick="submitExercise()">Submit Answers</button>
+      <button id="back-to-lessons" style="display: none;" onclick="goToHomePage()">Back to Lessons</button>
+    </div>
+
+   <section id="progress" style="display: none;">
+  <h2>Progress</h2>
+  <div id="progress-info">
+    <label for="progress-bar">Your Progress:</label>
+    <progress id="progress-bar" value="0" max="100"></progress>
+    <span id="progress-percent">0%</span>
+  </div>
+</section>
+
+  </main>
+
+  <script src="script.js"></script>
+  <script>
+    // Ensure that only the login section is visible initially
+    document.addEventListener('DOMContentLoaded', () => {
+      document.getElementById('lessons').style.display = 'none';
+      document.getElementById('lesson-view').style.display = 'none';
+      document.getElementById('exercises').style.display = 'none';
+      document.getElementById('progress').style.display = 'none';
+    });
+  </script>
+
+
+  
+
+</body>
+</html>
