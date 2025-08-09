@@ -1,0 +1,132 @@
+/* Minimalist, elegant base styles */
+
+:root{
+    --bg: #ffffff;
+    --surface: #f6f8fb;
+    --text: #0f1724;
+    --muted: #6b7280;
+    --accent: #2563eb;
+    --radius: 12px;
+    --gap: 1.25rem;
+    --container: 1100px;
+    --shadow: 0 6px 20px rgba(16,24,40,0.06);
+    font-synthesis: none;
+  }
+  
+  [data-theme="dark"]{
+    --bg: #071027;
+    --surface: #071927;
+    --text: #e6eef8;
+    --muted: #94a3b8;
+    --accent: #60a5fa;
+    --shadow: 0 6px 20px rgba(0,0,0,0.6);
+  }
+  
+  *{box-sizing:border-box}
+  html,body{height:100%}
+  body{
+    margin:0;
+    font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+    background:var(--bg);
+    color:var(--text);
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale;
+    line-height:1.45;
+    -webkit-tap-highlight-color: transparent;
+  }
+  
+  .container{max-width:var(--container);margin:0 auto;padding:1.25rem}
+  
+  /* Header */
+  .site-header{background:transparent;position:sticky;top:0;z-index:40}
+  .header-inner{display:flex;align-items:center;justify-content:space-between;gap:var(--gap)}
+  .logo{font-weight:700;letter-spacing:0.2px;text-decoration:none;color:var(--text)}
+  .nav{display:flex;align-items:center;gap:1rem}
+  .nav-list{list-style:none;padding:0;margin:0;display:flex;gap:1rem}
+  .nav-list a{text-decoration:none;color:var(--text);padding:0.5rem;border-radius:8px}
+  .nav-list a:focus,.nav-list a:hover{background:var(--surface)}
+  
+  /* Actions */
+  .nav-actions{display:flex;align-items:center;gap:0.75rem}
+  .btn{display:inline-flex;align-items:center;gap:0.5rem;padding:0.55rem 0.85rem;border-radius:10px;border:1px solid transparent;background:transparent;cursor:pointer}
+  .btn:focus{outline:2px solid color-mix(in srgb, var(--accent) 30%, transparent);outline-offset:2px}
+  .icon-btn{font-size:1.05rem}
+  .btn.primary{background:var(--accent);color:white;padding:0.6rem 1rem;border-radius:12px;box-shadow:var(--shadow)}
+  .btn.primary.large{padding:0.9rem 1.25rem;font-size:1.05rem}
+  
+  /* Hero */
+  .hero{padding:6rem 0 3rem}
+  .hero-inner{display:grid;gap:1rem}
+  h1{font-size:clamp(1.4rem,2.8vw,2.2rem);margin:0 0 0.35rem}
+  .lead{color:var(--muted);max-width:60ch;margin:0 0 1rem}
+  
+  /* Footer */
+  .site-footer{padding:2rem 0;color:var(--muted)}
+  
+  /* Mobile menu toggle */
+  .menu-toggle{display:none;background:transparent;border:0;padding:0.25rem;border-radius:8px}
+  .hamburger{width:22px;height:2px;background:var(--text);display:block;position:relative}
+  .hamburger::after,.hamburger::before{content:"";position:absolute;left:0;right:0;height:2px;background:var(--text)}
+  .hamburger::before{top:-7px} .hamburger::after{bottom:-7px}
+  
+  /* Responsive */
+  @media (max-width:900px){
+    .nav-list{display:none}
+    .menu-toggle{display:block}
+    .nav.open .nav-list{display:flex;flex-direction:column;position:absolute;top:68px;left:0;right:0;background:var(--bg);padding:1rem;box-shadow:var(--shadow)}
+    .nav.open .nav-actions{display:flex;flex-direction:row;gap:0.75rem;margin-top:0.75rem}
+    .hero{padding:4.25rem 0 2rem}
+  }
+
+
+  
+
+  /* Lessons grid */
+.lessons-grid{
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(240px,1fr));
+    gap:1.5rem;
+    margin-top:1.5rem;
+  }
+  .lesson-card{
+    background:var(--surface);
+    padding:1.25rem;
+    border-radius:var(--radius);
+    box-shadow:var(--shadow);
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    transition:transform 0.15s ease;
+  }
+  .lesson-card:hover{transform:translateY(-3px)}
+  .lesson-title{font-weight:600;margin-bottom:0.5rem}
+  .lesson-desc{color:var(--muted);font-size:0.95rem;flex-grow:1}
+  .lesson-btn{margin-top:1rem}
+  
+
+
+
+
+  .quiz-options {
+    list-style: none;
+    padding: 0;
+  }
+  .quiz-options li {
+    margin-bottom: 0.5rem;
+  }
+  .option-btn {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid var(--border);
+    background: var(--surface);
+    border-radius: var(--radius);
+    cursor: pointer;
+    transition: background 0.2s ease;
+  }
+  .option-btn:hover {
+    background: var(--primary-light);
+  }
+  .hidden {
+    display: none;
+  }
+  

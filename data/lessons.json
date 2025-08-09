@@ -1,0 +1,21 @@
+[
+    {
+      "id": 1,
+      "title": "Russian Alphabet — Part 1",
+      "description": "Learn the first set of Russian letters and their pronunciation.",
+      "image": "assets/images/alphabet1.png"
+    },
+    {
+      "id": 2,
+      "title": "Basic Greetings",
+      "description": "Common ways to say hello, goodbye, and introduce yourself.",
+      "image": "assets/images/greetings.png"
+    },
+    {
+      "id": 3,
+      "title": "Numbers 1-10",
+      "description": "Count from one to ten in Russian with correct pronunciation.",
+      "image": "assets/images/numbers.png"
+    }
+  ]
+  
