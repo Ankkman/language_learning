@@ -1,21 +1,53 @@
 [
     {
       "id": 1,
-      "title": "Russian Alphabet — Part 1",
-      "description": "Learn the first set of Russian letters and their pronunciation.",
-      "image": "assets/images/alphabet1.png"
+      "title": "Russian Alphabet – Part 1",
+      "content": "Learn the first half of the Russian alphabet: А, Б, В, Г, Д, Е, Ё, Ж, З, И. Each letter has its own sound, similar to English in some cases, but others are unique to Russian. Practice pronouncing each letter slowly."
     },
     {
       "id": 2,
-      "title": "Basic Greetings",
-      "description": "Common ways to say hello, goodbye, and introduce yourself.",
-      "image": "assets/images/greetings.png"
+      "title": "Russian Alphabet – Part 2",
+      "content": "Learn the second half of the Russian alphabet: Й, К, Л, М, Н, О, П, Р, С, Т, У, Ф, Х, Ц, Ч, Ш, Щ, Ъ, Ы, Ь, Э, Ю, Я. Pay attention to soft and hard sounds."
     },
     {
       "id": 3,
-      "title": "Numbers 1-10",
-      "description": "Count from one to ten in Russian with correct pronunciation.",
-      "image": "assets/images/numbers.png"
+      "title": "Basic Greetings",
+      "content": "Learn how to say hello, goodbye, and common greetings. Example: Здравствуйте (Hello), Привет (Hi), Пока (Bye), До свидания (Goodbye)."
+    },
+    {
+      "id": 4,
+      "title": "Introducing Yourself",
+      "content": "Learn how to introduce yourself: Меня зовут [Name] (My name is [Name]). Я из [Country] (I am from [Country])."
+    },
+    {
+      "id": 5,
+      "title": "Numbers 1–10",
+      "content": "Learn numbers from 1 to 10 in Russian: один, два, три, четыре, пять, шесть, семь, восемь, девять, десять."
+    },
+    {
+      "id": 6,
+      "title": "Days of the Week",
+      "content": "Learn days of the week: Понедельник (Monday), Вторник (Tuesday), Среда (Wednesday), Четверг (Thursday), Пятница (Friday), Суббота (Saturday), Воскресенье (Sunday)."
+    },
+    {
+      "id": 7,
+      "title": "Common Phrases for Travelers",
+      "content": "Learn basic phrases: Где туалет? (Where is the bathroom?), Сколько это стоит? (How much does it cost?), Я не говорю по-русски (I don’t speak Russian)."
+    },
+    {
+      "id": 8,
+      "title": "Ordering Food",
+      "content": "Learn how to order food: Я хочу [dish] (I want [dish]), Пожалуйста (Please), Спасибо (Thank you)."
+    },
+    {
+      "id": 9,
+      "title": "Asking for Directions",
+      "content": "Learn direction phrases: Где находится...? (Where is...?), Прямо (Straight), Налево (Left), Направо (Right)."
+    },
+    {
+      "id": 10,
+      "title": "Basic Grammar – Present Tense",
+      "content": "Learn how verbs work in present tense. Example: Я читаю (I read), Ты читаешь (You read), Он читает (He reads)."
     }
   ]
   
