@@ -1,39 +1,152 @@
-{
-    "1": [
+[
+  {
+    "lessonId": 1,
+    "quizzes": [
       {
-        "question": "What is the Russian letter for 'A'?",
-        "options": ["А", "Б", "В", "Г"],
+        "question": "What sound does 'А' make?",
+        "options": ["A as in 'car'", "B as in 'bat'", "E as in 'bed'"],
         "answer": 0
       },
       {
-        "question": "What sound does 'Б' make?",
-        "options": ["B as in Bat", "P as in Pen", "D as in Dog", "T as in Top"],
+        "question": "Which letter is in the Russian alphabet?",
+        "options": ["Ж", "Q", "W"],
         "answer": 0
       }
-    ],
-    "2": [
+    ]
+  },
+  {
+    "lessonId": 2,
+    "quizzes": [
       {
-        "question": "How do you say 'Hello' in Russian?",
-        "options": ["Здравствуйте", "Спасибо", "До свидания", "Пожалуйста"],
+        "question": "What is the letter Й called?",
+        "options": ["Short I", "Long I", "Soft E"],
         "answer": 0
       },
       {
-        "question": "What does 'Спасибо' mean?",
-        "options": ["Hello", "Goodbye", "Thank you", "Please"],
-        "answer": 2
+        "question": "Which is the last letter in the Russian alphabet?",
+        "options": ["Я", "Ю", "Э"],
+        "answer": 0
       }
-    ],
-    "3": [
+    ]
+  },
+  {
+    "lessonId": 3,
+    "quizzes": [
       {
-        "question": "What is 'Three' in Russian?",
-        "options": ["Три", "Четыре", "Два", "Пять"],
+        "question": "How do you say 'Hello' formally in Russian?",
+        "options": ["Здравствуйте", "Привет", "Пока"],
         "answer": 0
       },
       {
-        "question": "What number is 'Один'?",
-        "options": ["One", "Two", "Three", "Four"],
+        "question": "What does 'Пока' mean?",
+        "options": ["Goodbye", "Hello", "Please"],
+        "answer": 0
+      }
+    ]
+  },
+  {
+    "lessonId": 4,
+    "quizzes": [
+      {
+        "question": "How do you say 'My name is...' in Russian?",
+        "options": ["Меня зовут...", "Я из...", "Привет"],
+        "answer": 0
+      },
+      {
+        "question": "Translate: Я из России",
+        "options": ["I am from Russia", "I live in Russia", "I like Russia"],
+        "answer": 0
+      }
+    ]
+  },
+  {
+    "lessonId": 5,
+    "quizzes": [
+      {
+        "question": "What is 'один' in English?",
+        "options": ["One", "Two", "Three"],
+        "answer": 0
+      },
+      {
+        "question": "What number is 'пять'?",
+        "options": ["5", "7", "9"],
+        "answer": 0
+      }
+    ]
+  },
+  {
+    "lessonId": 6,
+    "quizzes": [
+      {
+        "question": "What is 'Пятница'?",
+        "options": ["Friday", "Monday", "Saturday"],
+        "answer": 0
+      },
+      {
+        "question": "What day is 'Воскресенье'?",
+        "options": ["Sunday", "Saturday", "Wednesday"],
+        "answer": 0
+      }
+    ]
+  },
+  {
+    "lessonId": 7,
+    "quizzes": [
+      {
+        "question": "Translate: Где туалет?",
+        "options": ["Where is the bathroom?", "Where is the shop?", "Where is the train?"],
+        "answer": 0
+      },
+      {
+        "question": "What does 'Сколько это стоит?' mean?",
+        "options": ["How much does it cost?", "What time is it?", "Where is it?"],
+        "answer": 0
+      }
+    ]
+  },
+  {
+    "lessonId": 8,
+    "quizzes": [
+      {
+        "question": "How do you say 'Please' in Russian?",
+        "options": ["Пожалуйста", "Спасибо", "Привет"],
+        "answer": 0
+      },
+      {
+        "question": "Translate: Я хочу борщ",
+        "options": ["I want borscht", "I have borscht", "I like borscht"],
+        "answer": 0
+      }
+    ]
+  },
+  {
+    "lessonId": 9,
+    "quizzes": [
+      {
+        "question": "What does 'Налево' mean?",
+        "options": ["Left", "Right", "Straight"],
+        "answer": 0
+      },
+      {
+        "question": "Translate: Прямо",
+        "options": ["Straight", "Right", "Left"],
+        "answer": 0
+      }
+    ]
+  },
+  {
+    "lessonId": 10,
+    "quizzes": [
+      {
+        "question": "What does 'Я читаю' mean?",
+        "options": ["I read", "You read", "He reads"],
+        "answer": 0
+      },
+      {
+        "question": "How do you say 'He reads' in Russian?",
+        "options": ["Он читает", "Я читаю", "Ты читаешь"],
         "answer": 0
       }
     ]
   }
-  
+]
