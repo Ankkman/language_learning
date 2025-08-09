@@ -1,73 +1,46 @@
-document.addEventListener('DOMContentLoaded', () => {
-    const params = new URLSearchParams(window.location.search);
-    const lessonId = params.get('lesson');
-    const quizContainer = document.getElementById('quiz-container');
-    const quizTitle = document.getElementById('quiz-title');
-    const resultBox = document.getElementById('quiz-result');
-    const scoreText = document.getElementById('score-text');
-  
-    let currentQuestion = 0;
-    let score = 0;
-    let quizData = [];
-  
-    if (!lessonId) {
-      quizContainer.innerHTML = `<p class="muted">No lesson selected.</p>`;
+const urlParams = new URLSearchParams(window.location.search);
+const lessonId = parseInt(urlParams.get('lessonId'));
+
+fetch('data/quiz.json')
+  .then(response => response.json())
+  .then(data => {
+    const lessonQuiz = data.find(q => q.lessonId === lessonId);
+    if (!lessonQuiz) {
+      document.getElementById('quiz-container').innerHTML = "<p>No quiz available.</p>";
       return;
     }
-  
-    fetch('data/quiz.json')
-      .then(res => res.json())
-      .then(data => {
-        quizData = data[lessonId];
-        if (!quizData) {
-          quizContainer.innerHTML = `<p class="muted">No quiz available for this lesson.</p>`;
-          return;
-        }
-        quizTitle.textContent = `Lesson ${lessonId} Quiz`;
-        loadQuestion();
-      })
-      .catch(err => {
-        quizContainer.innerHTML = `<p class="muted">Error loading quiz.</p>`;
-        console.error(err);
-      });
-  
-    function loadQuestion() {
-      const q = quizData[currentQuestion];
-      quizContainer.innerHTML = `
-        <div class="quiz-question">
-          <h2>${q.question}</h2>
-          <ul class="quiz-options">
-            ${q.options.map((opt, i) => `<li><button class="option-btn" data-index="${i}">${opt}</button></li>`).join('')}
-          </ul>
-        </div>
+
+    let score = 0;
+    let currentQuestion = 0;
+    const container = document.getElementById('quiz-container');
+
+    function showQuestion() {
+      const q = lessonQuiz.quizzes[currentQuestion];
+      container.innerHTML = `
+        <h3>${q.question}</h3>
+        ${q.options.map((opt, i) => `
+          <button class="quiz-option" data-index="${i}">${opt}</button>
+        `).join('')}
       `;
-      document.querySelectorAll('.option-btn').forEach(btn => {
-        btn.addEventListener('click', () => handleAnswer(parseInt(btn.dataset.index)));
+
+      document.querySelectorAll('.quiz-option').forEach(btn => {
+        btn.addEventListener('click', () => {
+          if (parseInt(btn.dataset.index) === q.answer) {
+            score++;
+          }
+          currentQuestion++;
+          if (currentQuestion < lessonQuiz.quizzes.length) {
+            showQuestion();
+          } else {
+            container.innerHTML = `<p>You scored ${score} out of ${lessonQuiz.quizzes.length}</p>`;
+          }
+        });
       });
     }
-  
-    function handleAnswer(selected) {
-      const correct = quizData[currentQuestion].answer;
-      if (selected === correct) {
-        score++;
-        alert('✅ Correct!');
-      } else {
-        alert(`❌ Incorrect! Correct answer: ${quizData[currentQuestion].options[correct]}`);
-      }
-  
-      currentQuestion++;
-      if (currentQuestion < quizData.length) {
-        loadQuestion();
-      } else {
-        showResult();
-      }
-    }
-  
-    function showResult() {
-      quizContainer.classList.add('hidden');
-      resultBox.classList.remove('hidden');
-      scoreText.textContent = `${score} / ${quizData.length}`;
-      localStorage.setItem(`lesson-${lessonId}-score`, score);
-    }
+
+    showQuestion();
+  })
+  .catch(error => {
+    console.error('Error loading quiz:', error);
+    document.getElementById('quiz-container').innerHTML = "<p>Error loading quiz.</p>";
   });
-  
