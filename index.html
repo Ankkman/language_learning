@@ -9,7 +9,7 @@
 <body>
   <header class="site-header">
     <div class="container header-inner">
-      <a class="logo" href="index.html">Lingua</a>
+      <a class="logo" href="index.html">Language Learning App</a>
 
       <button id="menu-toggle" class="menu-toggle" aria-label="Toggle menu">
         <span class="hamburger"></span>
@@ -17,14 +17,10 @@
 
       <nav class="nav" id="site-nav" aria-label="Primary">
         <ul class="nav-list">
-          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html" class="active">Home</a></li>
           <li><a href="lessons.html">Lessons</a></li>
           <li><a href="#about">About</a></li>
         </ul>
-        <div class="nav-actions">
-          <button id="theme-toggle" class="btn icon-btn" aria-pressed="false" aria-label="Toggle theme">🌓</button>
-          <a class="btn primary" href="lessons.html">Start learning →</a>
-        </div>
       </nav>
     </div>
   </header>
@@ -32,25 +28,15 @@
   <main>
     <section class="hero">
       <div class="container hero-inner">
+        <img src="images/hero.jpg" alt="Learn Languages" class="hero-img">
         <h1>Learn Russian — minimalist, focused lessons</h1>
-        <p class="lead">Bite-sized lessons, interactive quizzes, and real-time scoring — built for clarity and speed.</p>
+        <p class="lead">Bite-sized lessons, interactive quizzes, and real-time scoring.</p>
         <p>
           <a class="btn primary large" href="lessons.html">Start learning</a>
         </p>
       </div>
     </section>
-
-    <section id="about" class="container">
-      <h2>Why this app</h2>
-      <p class="muted">A lightweight, data-driven learning prototype designed to be extended with a backend later. For now: polished front end, local progress, and responsive design.</p>
-    </section>
   </main>
-
-  <footer class="site-footer">
-    <div class="container">
-      <small>© <span id="year"></span> Lingua • Demo project for resume</small>
-    </div>
-  </footer>
 
   <script defer src="js/main.js"></script>
 </body>
