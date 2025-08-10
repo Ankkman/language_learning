@@ -8,3 +8,5 @@ A minimalist web application for learning Russian through bite-sized lessons and
 - **Quiz**: Multiple-choice questions with instant feedback (green for correct, red for incorrect).
 - **Responsive Design**: Works on mobile and desktop.
 
+**Live Demo**
+GitHub Page link: https://ankkman.github.io/language_learning/
