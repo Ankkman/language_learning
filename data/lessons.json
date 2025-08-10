@@ -1,53 +1,52 @@
 [
-    {
-      "id": 1,
-      "title": "Russian Alphabet – Part 1",
-      "content": "Learn the first half of the Russian alphabet: А, Б, В, Г, Д, Е, Ё, Ж, З, И. Each letter has its own sound, similar to English in some cases, but others are unique to Russian. Practice pronouncing each letter slowly."
-    },
-    {
-      "id": 2,
-      "title": "Russian Alphabet – Part 2",
-      "content": "Learn the second half of the Russian alphabet: Й, К, Л, М, Н, О, П, Р, С, Т, У, Ф, Х, Ц, Ч, Ш, Щ, Ъ, Ы, Ь, Э, Ю, Я. Pay attention to soft and hard sounds."
-    },
-    {
-      "id": 3,
-      "title": "Basic Greetings",
-      "content": "Learn how to say hello, goodbye, and common greetings. Example: Здравствуйте (Hello), Привет (Hi), Пока (Bye), До свидания (Goodbye)."
-    },
-    {
-      "id": 4,
-      "title": "Introducing Yourself",
-      "content": "Learn how to introduce yourself: Меня зовут [Name] (My name is [Name]). Я из [Country] (I am from [Country])."
-    },
-    {
-      "id": 5,
-      "title": "Numbers 1–10",
-      "content": "Learn numbers from 1 to 10 in Russian: один, два, три, четыре, пять, шесть, семь, восемь, девять, десять."
-    },
-    {
-      "id": 6,
-      "title": "Days of the Week",
-      "content": "Learn days of the week: Понедельник (Monday), Вторник (Tuesday), Среда (Wednesday), Четверг (Thursday), Пятница (Friday), Суббота (Saturday), Воскресенье (Sunday)."
-    },
-    {
-      "id": 7,
-      "title": "Common Phrases for Travelers",
-      "content": "Learn basic phrases: Где туалет? (Where is the bathroom?), Сколько это стоит? (How much does it cost?), Я не говорю по-русски (I don’t speak Russian)."
-    },
-    {
-      "id": 8,
-      "title": "Ordering Food",
-      "content": "Learn how to order food: Я хочу [dish] (I want [dish]), Пожалуйста (Please), Спасибо (Thank you)."
-    },
-    {
-      "id": 9,
-      "title": "Asking for Directions",
-      "content": "Learn direction phrases: Где находится...? (Where is...?), Прямо (Straight), Налево (Left), Направо (Right)."
-    },
-    {
-      "id": 10,
-      "title": "Basic Grammar – Present Tense",
-      "content": "Learn how verbs work in present tense. Example: Я читаю (I read), Ты читаешь (You read), Он читает (He reads)."
-    }
-  ]
-  
+  {
+    "id": 1,
+    "title": "Russian Alphabet – Part 1",
+    "content": "Learn the first half of the Russian alphabet: А, Б, В, Г, Д, Е, Ё, Ж, З, И.<br><br>  Explanation: These are the building blocks of reading and speaking Russian. Some letters look like English but may sound different. For example, 'А' is like 'A' in 'father', while 'В' sounds like 'V' in 'victory'. Others, like 'Ж' (sounds like the 's' in 'measure'), are completely new.<br><br> Examples:\n- А: Анна (Anna)\n- Б: Борис (Boris)\n- Ж: Жук (beetle)<br><br> Tips: Practice slowly and clearly. Say each letter out loud several times. Watch Russian videos to hear native pronunciation."
+  },
+  {
+    "id": 2,
+    "title": "Russian Alphabet – Part 2",
+    "content": "Learn the second half of the Russian alphabet: Й, К, Л, М, Н, О, П, Р, С, Т, У, Ф, Х, Ц, Ч, Ш, Щ, Ъ, Ы, Ь, Э, Ю, Я.<br><br> Explanation: This half contains important sounds, including 'soft' and 'hard' consonants. For example, 'Р' is rolled like in Spanish, and 'Ы' is a sound that doesn’t exist in English — somewhere between 'i' and 'u'. The marks Ъ (hard sign) and Ь (soft sign) change the way letters are pronounced.<br><br> Examples:\n- Л: Луна (moon)\n- Ч: Чай (tea)\n- Ю: Юг (south)<br><br> Tips: Pay attention to tongue position for unusual sounds. Practice minimal pairs to hear the difference between soft and hard consonants."
+  },
+  {
+    "id": 3,
+    "title": "Basic Greetings",
+    "content": "Learn how to say hello, goodbye, and common greetings. Example: Здравствуйте (Hello), Привет (Hi), Пока (Bye), До свидания (Goodbye).<br><br> Explanation: Russian has both formal and informal greetings. Use 'Здравствуйте' in polite or professional settings, and 'Привет' with friends or people your age.<br><br> Examples:\n- Morning: Доброе утро (Good morning)\n- Evening: Добрый вечер (Good evening)<br><br> Tips: Always match the level of formality to the situation. Russians value respectful greetings, especially with elders."
+  },
+  {
+    "id": 4,
+    "title": "Introducing Yourself",
+    "content": "Learn how to introduce yourself: Меня зовут [Name] (My name is [Name]). Я из [Country] (I am from [Country]).<br><br> Explanation: 'Меня зовут' literally means 'They call me'. The phrase 'Я из' is used to state your origin. You can also add your profession or hobby.<br><br> Examples:\n- Меня зовут Анна. Я из Канады. (My name is Anna. I am from Canada.)\n- Я программист. (I am a programmer.)<br><br> Tips: Smile when introducing yourself — body language matters as much as the words."
+  },
+  {
+    "id": 5,
+    "title": "Numbers 1–10",
+    "content": "Learn numbers from 1 to 10 in Russian: один, два, три, четыре, пять, шесть, семь, восемь, девять, десять.<br><br> Explanation: Knowing numbers is essential for shopping, telling time, and travel. Russian numbers have stress patterns that affect pronunciation.<br><br> Examples:\n- 1 apple → одно яблоко\n- 3 days → три дня<br><br> Tips: Practice by counting objects around you. Listen to native speakers count to get the rhythm right."
+  },
+  {
+    "id": 6,
+    "title": "Days of the Week",
+    "content": "Learn days of the week: Понедельник (Monday), Вторник (Tuesday), Среда (Wednesday), Четверг (Thursday), Пятница (Friday), Суббота (Saturday), Воскресенье (Sunday).<br><br> Explanation: Russian days are masculine except for 'Среда' (feminine) and 'Суббота' (feminine). Capitalization rules are different — days are NOT capitalized in Russian unless at the start of a sentence.<br><br> Examples:\n- Сегодня понедельник. (Today is Monday.)\n- Завтра пятница. (Tomorrow is Friday.)<br><br> Tips: Link days to your routine to memorize faster. For example, 'Пятница' = movie night."
+  },
+  {
+    "id": 7,
+    "title": "Common Phrases for Travelers",
+    "content": "Learn basic phrases: Где туалет? (Where is the bathroom?), Сколько это стоит? (How much does it cost?), Я не говорю по-русски (I don’t speak Russian).<br><br> Explanation: These are lifesavers when traveling. 'Где' means 'where', and 'сколько' means 'how much'. Even if your pronunciation is imperfect, people will appreciate the effort.<br><br> Examples:\n- Помогите, пожалуйста. (Help, please.)\n- Я турист. (I am a tourist.)<br><br> Tips: Always say 'Пожалуйста' (please) — politeness helps get better responses."
+  },
+  {
+    "id": 8,
+    "title": "Ordering Food",
+    "content": "Learn how to order food: Я хочу [dish] (I want [dish]), Пожалуйста (Please), Спасибо (Thank you).<br><br> Explanation: 'Я хочу' is a simple and direct way to order, but adding 'мне, пожалуйста' makes it softer. Russians appreciate clear and polite orders.<br><br> Examples:\n- Мне борщ, пожалуйста. (Borscht for me, please.)\n- Я хочу чай. (I want tea.)<br><br> Tips: Learn dish names before visiting a restaurant so you can order confidently."
+  },
+  {
+    "id": 9,
+    "title": "Asking for Directions",
+    "content": "Learn direction phrases: Где находится...? (Where is...?), Прямо (Straight), Налево (Left), Направо (Right).<br><br> Explanation: 'Где находится' is formal; you can also say 'Где...' casually. Hand gestures help when asking for directions.<br><br> Examples:\n- Где находится вокзал? (Where is the train station?)\n- Идите прямо, потом направо. (Go straight, then right.)<br><br> Tips: Learn landmarks in Russian to understand answers better."
+  },
+  {
+    "id": 10,
+    "title": "Basic Grammar – Present Tense",
+    "content": "Learn how verbs work in present tense. Example: Я читаю (I read), Ты читаешь (You read), Он читает (He reads).<br><br> Explanation: Russian verbs change depending on who is doing the action. This is called 'conjugation'. There are two main conjugation types, and endings show the subject.<br><br> Examples:\n- Я пишу (I write)\n- Мы играем (We play)<br><br> Tips: Start by memorizing 'I' and 'you' forms — they’re used most often in conversation."
+  }
+]
