@@ -10,3 +10,5 @@ A minimalist web application for learning Russian through bite-sized lessons and
 
 **Live Demo**
 GitHub Page link: https://ankkman.github.io/language_learning/
+
+ScreenShot 1 : <img width="1918" height="968" alt="Screenshot 1" src="https://github.com/user-attachments/assets/ac457e73-45d5-492f-965b-d5293fb62985" />
